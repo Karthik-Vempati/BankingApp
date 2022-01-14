@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,8 +10,11 @@
         <style>
         .table{
             justify-content:center;
-            display:flex;
-            font-size: 30px;
+                display:flex;
+                font-size: 30px;
+                overflow:scroll;
+                overflow-x:hidden;
+                max-height:50vh;
         }
         th,td{
             padding:10px;
